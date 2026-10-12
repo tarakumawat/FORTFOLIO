@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tara Kumawat | Security Operations Portfolio</title>
+<meta name="description" content="Security operations portfolio: incident investigations, SIEM lab and detection work.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a href="#top" class="logo">tara<span>@soc</span>:~$</a>
+  <nav>
+    <a href="#about">About</a><a href="#projects">Projects</a><a href="#competitions">Competitions</a>
+    <a href="#learning">Learning</a><a href="#certs">Certs</a><a href="#community">Community</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+<section class="hero wrap">
+  <p class="eyebrow">Security Operations | Incident Response | Detection</p>
+  <h1>Tara Kumawat</h1>
+  <p class="lead">I investigate real incidents, learn from the logs, and turn what I find into better detections.</p>
+  <div class="term" aria-hidden="true">
+    <div><span class="p">$</span> whoami</div><div class="o">it-admin → soc-analyst (in progress)</div>
+    <div><span class="p">$</span> ls projects/</div><div class="o">m365-device-code/  firewall-bruteforce/  udp-flood/  wazuh-lab/</div>
+    <div><span class="p">$</span> <span class="cur"></span></div>
+  </div>
+  <div class="btns">
+    <a class="btn primary" href="#projects">View projects</a>
+    <a class="btn" href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn" href="https://linkedin.com/in/tarak-112132208" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn" href="https://medium.com/@kumawattara1213" target="_blank" rel="noopener">Medium</a>
+  </div>
+</section>
+
+<section id="about" class="wrap reveal">
+  <h2><span>01</span> About</h2>
+  <div class="about">
+    <p>I run IT for a small organisation, which means security problems land on my desk for real: a hijacked Microsoft 365 account, a firewall under constant attack, a network that kept going down. Working them end to end is what pulled me toward security operations.</p>
+    <p>I enjoy the detective part: reading sign-in and firewall logs, finding the root cause, and writing down what happened so it does not happen twice.</p>
+    <ul class="now">
+      <li><b>Building</b> a Wazuh SIEM lab and a library of detections</li>
+      <li><b>Learning</b> KQL (Microsoft Sentinel) and SPL (Splunk)</li>
+      <li><b>Aiming for</b> a SOC analyst role</li>
+    </ul>
+  </div>
+</section>
+
+<section id="projects" class="wrap reveal">
+  <h2><span>02</span> Projects</h2>
+  <p class="sub">Real investigations and lab work. Select a card for the full story.</p>
+  <div id="projectGrid" class="grid"></div>
+</section>
+
+<section id="competitions" class="wrap reveal">
+  <h2><span>03</span> Cybersecurity Competitions</h2>
+  <div class="grid" id="compGrid"></div>
+</section>
+
+<section id="learning" class="wrap reveal">
+  <h2><span>04</span> Practical Learning</h2>
+  <p class="sub">Hands-on labs, kept separate from certifications.</p>
+  <div class="stats">
+    <div class="card"><div class="num">TODO</div><div>TryHackMe rooms completed</div></div>
+    <div class="card"><div class="num">TODO</div><div>Other platform labs</div></div>
+    <div class="card"><div class="num">4</div><div>Self-built lab and incident write-ups</div></div>
+  </div>
+  <div class="card">
+    <h3>Areas covered</h3>
+    <div class="tags" id="areas"></div>
+    <div class="btns small">
+      <span class="btn ph">TryHackMe profile link (placeholder)</span>
+      <span class="btn ph">Selected write-up (placeholder)</span>
+    </div>
+  </div>
+</section>
+
+<section id="certs" class="wrap reveal">
+  <h2><span>05</span> Certifications</h2>
+  <div class="grid" id="certGrid"></div>
+</section>
+
+<section id="community" class="wrap reveal">
+  <h2><span>06</span> Achievements and Community</h2>
+  <div class="grid" id="commGrid"></div>
+</section>
+
+<section id="contact" class="wrap reveal">
+  <h2><span>07</span> Contact</h2>
+  <div class="card contact">
+    <p>Open to SOC analyst and security operations roles. Say hello.</p>
+    <div class="btns">
+      <a class="btn primary" href="mailto:kumawattara1213@gmail.com">kumawattara1213@gmail.com</a>
+      <a class="btn" href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn" href="https://linkedin.com/in/tarak-112132208" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="wrap foot">© <span id="yr"></span> Tara Kumawat. Incident details are sanitized.</footer>
+
+<dialog id="modal" aria-labelledby="mTitle">
+  <button class="close" id="mClose" aria-label="Close">×</button>
+  <div id="mBody"></div>
+</dialog>
+<script src="script.js"></script>
+</body>
+</html>
